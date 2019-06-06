@@ -62,3 +62,22 @@ li.socials {
   padding: 10px 10px;
   color: #4b6287;
 }
+.academics {
+  width: 50%;
+  height: 20%;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  color: white;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 100px;
+}
+.row {
+  display: flex;
+  padding-bottom: 0px;
+}
+
+.column {
+  flex: 50%;
+}
