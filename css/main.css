@@ -3,8 +3,9 @@ html {
   overflow: scroll;
 }
 body {
-    margin: 60px auto;
-    width: 70%;
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rg;
 }
 
 nav ul, footer ul {
