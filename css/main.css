@@ -73,6 +73,15 @@ li.socials {
   text-align: left;
   margin-bottom: 100px;
 }
+
+h1 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+
+}
 .row {
   display: flex;
   padding-bottom: 0px;
