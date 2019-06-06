@@ -2,6 +2,7 @@ html {
   font-family: "Karla", sans-serif;
   overflow: scroll;
 }
+
 body {
     height: calc(100vh - 8em);
     padding: 4em;
@@ -47,6 +48,7 @@ nav ul li, footer ul li {
 
 .des {
   font-weight: 400;
+  padding-bottom: 10px;
 }
 
 .des2 {
