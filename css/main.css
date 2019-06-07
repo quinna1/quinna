@@ -46,31 +46,162 @@ nav ul li, footer ul li {
   letter-spacing: 5;
 }
 
-.typewriter h1 {
-  color: #fff;
-  font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+.typewriter {
+  font-size: 40px;
+  position: relative;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.typewriter::after {
+  content:'';
+  display: block;
+  color: #000;
+  animation: write 10s linear infinite;
+  animation-fill-mode: forwards;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+@keyframes write {
+  1% {
+    content:'D|';
+  }
+  2% {
+    content:'De|';
+  }
+  3% {
+    content:'Des|';
+  }
+  4% {
+    content:'Desi|';
+  }
+  5% {
+    content:'Desig|';
+  }
+  6% {
+    content:'Design|';
+  }
+  7% {
+    content:'Designe|';
+  }
+  8% {
+    content:'Designer|';
+  }
+  
+  14% {
+    content:'Designer|';
+  }
+  14.5% {
+    content:'Designe|';
+  }
+  15% {
+    content:'Design|';
+  }
+  15.5% {
+    content:'Desig|';
+  }
+  16% {
+    content:'Desi|';
+  }
+  16.5% {
+    content:'Des|';
+  }
+  17% {
+    content:'De|';
+  }
+  17.5% {
+    content:'D|';
+  }
+  18% {
+    content:'';
+  }
+  
+  20% {
+    content:'D|';
+  }
+  21% {
+    content:'De|';
+  }
+  22% {
+    content:'Dev|';
+  }
+  23% {
+    content:'Deve|';
+  }
+  24% {
+    content:'Devel|';
+  }
+  25% {
+    content:'Develo|';
+  }
+  26% {
+    content:'Develop|';
+  }
+  27% {
+    content:'Develope|';
+  }
+  28% {
+    content:'Developer|';
+  }
+  
+  34% {
+    content:'Developer|';
+  }
+  35.5% {
+    content:'Develope|';
+  }
+  36% {
+    content:'Develop|';
+  }
+  36.5% {
+    content:'Develo|';
+  }
+  37% {
+    content:'Devel|';
+  }
+  37.5% {
+    content:'Deve|';
+  }
+  38% {
+    content:'Dev|';
+  }
+  38.5% {
+    content:'De|';
+  }
+  39% {
+    content:'D|';
+  }
+  39.5% {
+    content:'';
+  }
+  
+  42% {
+    content:'C|';
+  }
+  43% {
+    content:'Cr|';
+  }
+  44% {
+    content:'Cre|';
+  }
+  45% {
+    content:'Crea|';
+  }
+  46% {
+    content:'Creat|';
+  }
+  47% {
+    content:'Creato|';
+  }
+  48% {
+    content:'Creator.|';
+  }
+  49% {
+    content:'Creator.';
+    opacity: 1;
+  }
+  100% {
+    content:'Creator.';
+    opacity: 0;
+  }
 }
-
 body {
 margin: 0;
 padding: 0;
