@@ -121,6 +121,18 @@ li.socials {
   margin-bottom: 100px;
 }
 
+.projects {
+  width: 50%;
+  height: 20%;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  color: white;
+  margin: auto;
+  text-align: left;
+  border-top: 100px;
+  margin-bottom: 100px;
+}
 
 h1 {
   text-align: center;
