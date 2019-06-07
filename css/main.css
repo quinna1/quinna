@@ -84,7 +84,7 @@ li.socials {
 
 .experience {
   width: 50%;
-  height: 20%;
+  height: 80%;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
@@ -97,7 +97,7 @@ li.socials {
 
 .awards {
   width: 50%;
-  height: 20%;
+  height: 40%;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
@@ -110,7 +110,7 @@ li.socials {
 
 .skills {
   width: 50%;
-  height: 20%;
+  height: 50%;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
