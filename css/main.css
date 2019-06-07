@@ -46,6 +46,13 @@ nav ul li, footer ul li {
   letter-spacing: 5;
 }
 
+#typedtext {
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+}
 .des {
   font-weight: 400;
 }
