@@ -79,7 +79,7 @@ nav ul li, footer ul li {
     animation: type 5s steps(40, end);
 }
 
-.typewriter p:nth-child(2)
+.typewriter2 p:nth-child(2)
 {
     white-space:nowrap;
     overflow:hidden;    
