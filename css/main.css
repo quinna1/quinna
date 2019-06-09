@@ -71,8 +71,8 @@ nav ul li, footer ul li {
 .typewriter2 p
 {   
     font-family: "Courier";
-    font-size: 30px;
-    width: 50em;
+    font-size: 20px;
+    width: 20em;
     white-space:nowrap;
     overflow:hidden;
     -webkit-animation: type 5s steps(40, end);
