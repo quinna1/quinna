@@ -75,22 +75,10 @@ nav ul li, footer ul li {
     width: 20em;
     white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 10s steps(40, end);
-    animation: type 10s steps(40, end);
+    -webkit-animation: type 5s steps(40, end);
+    animation: type 5s steps(40, end);
 }
 
-.typewriter2 p:nth-child(2)
-{
-    white-space:nowrap;
-    overflow:hidden;    
-    opacity:0;
-    -webkit-animation: type 10s steps(40, end);
-    animation: type2 10s steps(40, end);
-    -webkit-animation-delay: 5s; 
-    animation-delay: 5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
 
  @keyframes type{
     from { width: 0; }
@@ -104,20 +92,6 @@ span{
   animation: blink 1s infinite;
 }
 
-@keyframes type2{
-0%{width: 0;}
-from {opacity:0;}
-1%{opacity:1;}
-to{opacity:1;}
-100%{opacity:1;}
-}
-@-webkit-keyframes type2{
-0%{width: 0;}
-from {opacity:0;}
-1%{opacity:1;}
-to{opacity:1;}
-100%{opacity:1;}
-}  
 
 body {
 margin: 0;
