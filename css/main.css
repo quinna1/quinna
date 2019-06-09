@@ -48,8 +48,9 @@ nav ul li, footer ul li {
 
 .typewriter p
 {   
+    text-align: center;
     font-family: "Courier";
-    font-size: 14px;
+    font-size: 50px;
     width: 50em;
     white-space:nowrap;
     overflow:hidden;
