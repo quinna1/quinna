@@ -71,7 +71,7 @@ nav ul li, footer ul li {
 .typewriter2 p
 {   
     font-family: "Courier";
-    font-size: 50px;
+    font-size: 30px;
     width: 50em;
     white-space:nowrap;
     overflow:hidden;
@@ -114,21 +114,6 @@ to{opacity:1;}
 @-webkit-keyframes type2{
 0%{width: 0;}
 from {opacity:0;}
-1%{opacity:1;}
-to{opacity:1;}
-100%{opacity:1;}
-}  
-@keyframes type3{
-  0%{width: 0;}
-  from {opacity:0;}
-1%{opacity:1;}
-to{opacity:1;}
-100%{opacity:1;}
-
-} 
-@-webkit-keyframes type3{
-  0%{width: 0;}
-  from {opacity:0;}
 1%{opacity:1;}
 to{opacity:1;}
 100%{opacity:1;}
