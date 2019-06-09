@@ -75,8 +75,8 @@ nav ul li, footer ul li {
     width: 20em;
     white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 5s steps(40, end);
-    animation: type 5s steps(40, end);
+    -webkit-animation: type 10s steps(40, end);
+    animation: type 10s steps(40, end);
 }
 
 .typewriter2 p:nth-child(2)
@@ -84,8 +84,8 @@ nav ul li, footer ul li {
     white-space:nowrap;
     overflow:hidden;    
     opacity:0;
-    -webkit-animation: type 5s steps(40, end);
-    animation: type2 5s steps(40, end);
+    -webkit-animation: type 10s steps(40, end);
+    animation: type2 10s steps(40, end);
     -webkit-animation-delay: 5s; 
     animation-delay: 5s;
     -webkit-animation-fill-mode: forwards;
